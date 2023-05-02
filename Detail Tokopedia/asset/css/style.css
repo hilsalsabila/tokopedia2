@@ -1,0 +1,231 @@
+.body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: #f3f4f5;
+}
+.header span {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.item-header-1{
+    padding: 8px 12px;
+    background-color: transparent;
+}
+.header .item-header-1 span {
+    color: #929292;
+}
+.header .item-header-1 img{
+    width: 14px;
+}
+.header .item-header-1 span:hover {
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.item-header-2 {
+    padding: 8px 32px;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.07) 0px 4px 6px -1px;
+}
+
+.header .item-header-2 .img-tokopedia {
+    width: 145px;
+    height: 32px;   
+}
+
+.item-header-2 .text-kategori {
+    padding: 10px 5px;
+}
+
+.item-header-2 .text-kategori:hover{
+    background-color: #f3f4f5 !important;
+    cursor: pointer !important;
+    color: #03ac0e;
+    border-radius: 5px;
+}
+
+.item-header-2 span{
+    color: #929292;
+}
+
+.item-header-2 .img-search {
+    width: 18px;
+}
+
+.item-header-2 .wrap-search {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 35px;
+}
+
+.item-header-2 .wrap-search .from-control {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    border: 1px solid #cdcdcd;
+    z-index: 1
+}
+
+.item-header-2 .wrap-search .from-control::placeholder {
+    color: #cdcdcd;
+    font-size: 14px;
+}
+
+.item-header-2 .wrap-search .from-control:focus{
+    box-shadow: none;
+    border: 1px solid #03ac0e;
+}
+
+.item-header-2 .wrap-search .wrap-icon-search {
+    background-color: #f3f4f5;
+    position: absolute;
+    right: 1px;
+    height: 100%;
+    width: 4%;
+    margin-top: -37px;
+}
+
+.item-header-2 .wrap-search .wrap-icon-search .img-search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+}
+
+.item-header-2 .wrap-img-shop {
+    position: relative;
+    background-color: transparent;
+    height: max-content;
+    width: max-content;
+    padding: 0px 8px 5px 8px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    margin-top: 5px;
+}
+.item-header-2 .wrap-img-shop .wrap-icon-img-shop .img-shop{
+    width: 20px;
+    height: 20px;
+}
+
+.item-header-2 .wrap-img-shop:hover {
+    background-color: #f3f4f5;
+    cursor: pointer;
+}
+
+.line {
+    font-size: 20px;
+    color: #cdcdcd;
+    margin-bottom: 8px;
+    font-weight: 200;
+}
+
+.header .btn {
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: #03ac0e;
+}
+
+.header .btn:first-child{
+    background-color: #ffffff;
+    border: 1px solid #03ac0e;
+    color: #03ac0e;
+}
+
+.text-under-search {
+    margin-left: 16%;
+}
+
+.text-under-search span:hover {
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+.modal-content {
+    top: 62px;
+    right: 190px;
+    padding: 19px;
+    width: 800px;
+    border-radius: 0;
+    border: none;
+}
+
+.m-c-head .btn {
+    color: #03ac0e;
+    border: 1px solid #03ac0e;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.m-c-head span {
+    color: #818181;
+}
+
+.m-c-head .title {
+    color: #7b7b7b;
+}
+
+/* kategori head */
+.kategori {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.head-kategori span:hover {
+    padding: 10px 30px;
+    border-bottom: 2px solid #03ac0e;
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.diskon {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.card {
+    margin-top: 10px;
+    padding: 0px 0px 3px;
+    width: 110%;
+    height: 50%;
+   
+}
+
+.card-body {
+    font-family: sans-serif ;
+    color: #212121;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: #212121;
+}
+
+.card .btn {
+   padding-left: 0px;
+   font-size: 14px;
+}
+
+/*.containerbox {
+    display: grid;
+    grid-template-columns: 66% auto;
+   margin-left: 5px;
+}
